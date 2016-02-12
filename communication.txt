@@ -1,0 +1,4 @@
+
+1. Every person who has applied for loan in any bank should have account in that bank.
+2. Person should have e-banking service for his bank account.This means person has login id and password for authentication.
+3.somethovsnklsdvh
