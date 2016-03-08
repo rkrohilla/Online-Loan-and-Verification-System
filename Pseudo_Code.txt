@@ -1,0 +1,71 @@
+class Admin_Login :
+
+                   if(user_name & password = true)
+                         go to homepage()  of that admin;
+						 if(admin ask to update emi details)
+						    go to updataion page of emi details;
+						 if(admin ask to update loan details)
+						    go to updataion page of loan details;
+						 
+                   else 
+                         stay on login_page ;			
+			
+			
+class Applicant:
+                 display homepage();
+				 if(request for a loan)
+				     go to application form,
+					 user enter details,
+					 request done;
+					
+                 if(ask for emi details)
+                     display emi details;
+
+                 if(ask to fill emi)
+                     display form to fill emi,
+                     enter details,
+                     if (successfull)
+                         display receipt number;
+                     else 
+					     display error;
+						 
+				 if(ask to update loan details)
+				     display updataion page;
+					 
+				 if(ask to delete loan request)
+				     display deletation page;
+					 
+                 if(ask to check application status)
+                     display status (reject or accept);
+
+
+class EMI_Details:
+                  if(userb ask to details)
+                     display the emi details;
+
+					 
+class Loan:
+            display the loan homepage;
+			if(user ask to display loan details)
+			   display details;
+			   
+			   
+class Receive_EMI:
+                   if(user ask to fill emi)
+				       go to emi for,
+					   user enter details,
+					   if (successfull)
+					      display the receipt number;
+					   else 
+					      display error;
+	
+	
+class Loan_Evaluator:
+                      display login page;
+					  if (login successfull)
+					      if (ask to update status)
+					        go to status form
+						    enter details
+						    display application status updated;
+        			
+                      
